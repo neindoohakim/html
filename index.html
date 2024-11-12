@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personalized Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#quiz">Take Quiz</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+                <li><a href="#progress">Progress Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="quiz">
+            <h2>Learning Style Quiz</h2>
+            <form id="quiz-form">
+                <div>
+                    <label for="question1">What type of content do you prefer?</label><br>
+                    <input type="radio" name="content" value="visual" required> Visual<br>
+                    <input type="radio" name="content" value="auditory"> Auditory<br>
+                    <input type="radio" name="content" value="kinesthetic"> Kinesthetic<br>
+                </div>
+                <div>
+                    <label for="question2">How do you prefer to learn?</label><br>
+                    <input type="radio" name="learning-method" value="self-paced" required> Self-paced<br>
+                    <input type="radio" name="learning-method" value="structured"> Structured<br>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="recommendations">
+            <h2>Your Course Recommendations</h2>
+            <div id="recommended-courses">
+                <!-- Course recommendations will be displayed here -->
+            </div>
+        </section>
+
+        <section id="progress">
+            <h2>Your Progress</h2>
+            <div id="progress-tracker">
+                <!-- Progress tracking will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Personalized Learning Platform</p>
+        <p>"AbdulHhakim"</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
